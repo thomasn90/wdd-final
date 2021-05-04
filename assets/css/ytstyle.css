@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.title-text {
+  font-family: "Montesserat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 131px;
+  text-align: center;
+
+  color: #ff0000;
+}
+
+.title-text-name {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Montesserat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 131px;
+  text-align: center;
+
+  color: #ff0000;
+}
+
+.container {
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.twitch-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.container-button {
+  height: 200px;
+  position: relative;
+}
+
+.center-button {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.yt-button {
+  background-color: #6441a4; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Montesserat", sans-serif;
+}
+
+.yt-button:hover {
+  cursor: pointer;
+}
